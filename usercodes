@@ -503,7 +503,7 @@ echo -e " \033[1;31m[ 5 ]\033[1;33m - ${txt[231]}"
 read -p " [ 1 - 5 ]: " ban_ner_cor
 echo '<h1><font>=============================</font></h1>' > $local
 if [[ "$ban_ner_cor" = "1" ]]; then
-echo '<h1><font color="green">' >> $local
+echo '<h1><font color="black">' >> $local
 elif [[ "$ban_ner_cor" = "2" ]]; then
 echo '<h1><font color="red">' >> $local
 elif [[ "$ban_ner_cor" = "3" ]]; then
@@ -517,7 +517,7 @@ echo '<h1><font color="blue">' >> $local
 fi
 echo "$ban_ner" >> $local
 echo '</font></h1>' >> $local
-echo '<h1 style="text-align:center;"><font color="purple">METODOS DE INTERNET</font></h1>' >> $local
+echo '<h1><font>=============================</font></h1>' >> $local
 while true; do
 echo -e " ${txt[233]}"
 read -p " [ s | n ]: " sin_nao
