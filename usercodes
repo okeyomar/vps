@@ -527,7 +527,19 @@ elif [[ "$sin_nao" = @(n|N) ]]; then
 break
 fi
 done
-echo '</h8><font color="purple">adm®</font></h8>' >> $local
+<html><h1 style="text-align:center;"><font color="red">METODOS DE INTERNET</font><br></h1><br>
+<h1 style="text-align:center;"><font color="orange">CLARO MOVISTAR ENTEL BITEL TUENTI</font><br></h1><br>
+<h1 style="text-align:center;"><font color="blue">INTERNET GRATUITO</font><br></h1><br>
+<h1 style="text-align:center;"><font color="black">GERARD OMAR SUPO</font><br></h1>
+<h4><font color="#FF0000">┣▇▇═─10%</font></h4>
+<h4><font color="#FF3300">┣▇▇▇▇═─ 20%</font></h4>
+<h4><font color="#FF6600">┣▇▇▇▇▇▇═─ 30%</font></h4>
+<h4><font color="#FF9900">┣▇▇▇▇▇▇▇▇═─ 40%</font></h4>
+<h4><font color="#FFCC00">┣▇▇▇▇▇▇▇▇▇▇▇═─ 60%</font></h4>
+<h4><font color="#FFFF00">┣▇▇▇▇▇▇▇▇▇▇▇▇▇▇═─ 80%</font></h4>
+<h4><font color="#FF0000">┣▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇═─ 100%</font></h4>
+<h1 style="text-align:center;"><font color="#000000">JULIACA PUNO PERU</font><br></h1>
+echo '</h8><font color="black">adm®</font></h8>' >> $local
 echo '<h1><font>=============================</font></h1>' >> $local
 if [ -e "$local2" ]; then
 rm $local2  > /dev/null 2>&1
