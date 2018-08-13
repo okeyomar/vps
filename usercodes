@@ -517,7 +517,7 @@ echo '<h1><font color="blue">' >> $local
 fi
 echo "$ban_ner" >> $local
 echo '</font></h1>' >> $local
-echo '<h1><font>=============================</font></h1>' >> $local
+echo '<h1 style="text-align:center;"><font color="purple">METODOS DE INTERNET</font></h1>' >> $local
 while true; do
 echo -e " ${txt[233]}"
 read -p " [ s | n ]: " sin_nao
@@ -527,17 +527,7 @@ elif [[ "$sin_nao" = @(n|N) ]]; then
 break
 fi
 done
-echo '</h1><font color="purple">METODOS DE INTERNET</font></h1>' >> $local
-echo '</h1><font color="purple">CLARO MOVISTAR ENTEL BITEL TUENTI</font></h1>' >> $local
-echo '</h1><font color="purple">GERARD OMAR SUPO</font></h1>' >> $local
-echo '</h1><font color="#FF0000">┣▇▇═─10%</font></h1>' >> $local
-echo '</h1><font color="#FF3300">┣▇▇▇▇═─ 20%</font></h1>' >> $local
-echo '</h1><font color="#FF6600">┣▇▇▇▇▇▇═─ 30%</font></h1>' >> $local
-echo '</h1><font color="#FF9900">┣▇▇▇▇▇▇▇▇═─ 40%</font></h1>' >> $local
-echo '</h1><font color="#FFCC00">┣▇▇▇▇▇▇▇▇▇▇▇═─ 60%</font></h1>' >> $local
-echo '</h1><font color="#FFFF00">┣▇▇▇▇▇▇▇▇▇▇▇▇▇▇═─ 80%</font></h1>' >> $local
-echo '</h1><font color="#FF0000">┣▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇═─ 100%</font></h1>' >> $local
-echo '</h1><font color="black">JULIACA PUNO PERU</font></h1>' >> $local
+echo '</h8><font color="purple">adm®</font></h8>' >> $local
 echo '<h1><font>=============================</font></h1>' >> $local
 if [ -e "$local2" ]; then
 rm $local2  > /dev/null 2>&1
